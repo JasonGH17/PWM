@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h2>PWM</h2>
+    <div id="pwd-gen-div">
+      <h4>Password generator:</h4>
+      <input id="pwd-gen" placeholder="Password" />
+      <div class="horizontal">
+        <btn id="pwd-gen-btn">Generate</btn>
+        <btn id="pwd-gen-save">Save</btn>
+        <btn id="pwd-gen-copy">Copy</btn>
+      </div>
+      <div id="save-modal" class="hidden">
+        <input id="save-pwd" placeholder="Password" />
+        <input id="save-web" placeholder="Website" />
+        <btn id="save-btn">Save</btn>
+      </div>
+    </div>
+    <h4>Websites:</h4>
+    <ul id="pwd-list"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>

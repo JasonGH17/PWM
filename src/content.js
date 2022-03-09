@@ -1,0 +1,1 @@
+setTimeout(() => { chrome.runtime.sendMessage({ type: "pwdField", data: document.getElementById("pass") ? true : false }); }, 150)

@@ -1,0 +1,67 @@
+:root {
+  --base: #f1faee;
+  --accent: #457b9d;
+}
+
+body {
+  background-color: var(--base);
+}
+
+div {
+  flex: 1;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.horizontal {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#save-modal {
+  background-color: var(--accent);
+  border-radius: 1em;
+  padding: 10px;
+  margin-top: 10px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+#save-btn {
+    background-color: var(--base);
+    color: var(--accent);
+}
+
+.show {
+  width: 90%;
+  height: 80px;
+}
+
+.hidden {
+  visibility: hidden;
+  width: 0%;
+  height: 0px;
+}
+
+btn {
+  background-color: var(--accent);
+  color: var(--base);
+  cursor: pointer;
+  border-radius: 1em;
+  padding: 5px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2,
+h3,
+h4,
+p,
+li {
+  color: var(--accent);
+}
